@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<ol type="I" start="5"> <!--tag for ordered lists-->
+		<li>first element</li>
+		<li>second element</li>
+		<li>third element</li>
+		<br/><br/>
+	</ol>
+	<ul type="square"> <!--tag for unordered lists-->
+		<li>first element</li>
+		<li>second element</li>
+		<li>third element</li>
+		<br/><br/>
+	</ul>
+
+</body>
+</html>
