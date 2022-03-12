@@ -1,0 +1,41 @@
+<html>
+<head> <!--yardımcı diğer etiketleri barındıran ve kapatılan bir etikettir.-->
+<title>Başlık</title>
+</head>
+
+<body> <!--sayfada gözükecek olan her eleman bu gövdenin içerisindedir.-->
+Hello World!
+<br> <!--bir paragraf boşluğu-->
+<b>bold</b> <!--<strong> aynı amaç-->
+<u>altı çizili</u>
+<br/> <!--satır boşluğu-->
+<i>italic</i>
+<br/><b><i><u>özge</u></i></b> <!--son açılan ilk kapatılır.-->
+<!--font etiketi yazıya renk tip boyut vermekte kullanılır.-->
+<font color="red" size="7" face="Arial">nur</font> <br/>
+
+<h1>başlık etiketi</h1><br/>
+<h2>giderek</h2><br/>
+<h3>küçülen</h3 ><br/>
+<h4>başlık</h4><br/>
+<h5>etiketi</h5><br/>
+<h6><font color="blue">işte</font></h6><br/>
+
+<section><h3>meyve ve sebzeler</h3>
+<p>armut, domates, biber</p>
+<h3>dersler</h3>
+<p>web, nesne, algoritma</p></section>
+
+<footer>
+<p>Author: Hege refsnes>br>
+<ahref="mailto:hege@exemple.com</a></p>
+</footer>
+
+<img src="images/exemple.jpg" width="150" height="150" title="exemple alt="exemple" border="2"> 
+<!--açılışı ve özniteliği var kapanışı yok-->
+
+<button>add a button</button>
+	<a href = "https://github.com/oz181" >name of the link</a>
+
+</body>
+</html>
