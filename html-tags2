@@ -3,9 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Welcome..</title>
+	<link rel="icon" type="image/x-icon" href="apple.jpg">
 </head>
 <body>
+
+<section><h3>meyve ve sebzeler</h3>
+<p>armut, domates, biber</p>
+<h3>dersler</h3>
+<p>web, nesne, algoritma</p></section>
+
+<footer>
+<p>Author: Hege refsnes>br>
+<ahref="mailto:hege@exemple.com</a></p>
+</footer>
+
+<img src="images/exemple.jpg" width="150" height="150" title="exemple alt="exemple" border="2"> 
+<!--açılışı ve özniteliği var kapanışı yok-->
+
+<button>add a button</button>
+	<a href = "https://github.com/oz181" taget= "blank" title="my github profile">name of the link</a>
+	
 	<ol type="I" start="5"> <!--tag for ordered lists-->
 		<li>first element</li>
 		<li>second element</li>
