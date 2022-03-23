@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS</title>
+	
+</head>
+<body>
+
+
+ <p>A new approach that <b>considers</b> how <strong>materials</strong> look, <i>feel</i> and <em>function.</em></p>
+  <p>A <u>unique</u> functionality in<del> every </del>detail: <sub>insulated</sub> pockets, <sup>storm </sup>visor and cuffs, seamed <mark>seals</mark>, drawcords for heat retention and much more. </p>
+  <hr>
+
+ <ol start=3 type="a">
+ 	<li>Lorem ipsum dolat sit.</li>
+ 	<ol type="I">
+ 		<li>Lorem, ipsum.</li>
+ 		<li>Lorem, ipsum.</li>
+ 		<li>Lorem, ipsum.</li>
+ 	</ol>
+ 	<li>Lorem ipsum dolat sit.</li>
+ 	<li>Lorem ipsum dolat sit.</li>
+ 	<li>Lorem ipsum dolat sit.</li>
+ 	<li>Lorem ipsum dolat sit.</li>
+ 	<li>Lorem ipsum dolat sit.</li>
+ </ol>
+
+ <img src="images/apple.jpg" width="300" alt="Apple">
+ <br>
+ <img src="images/orange.jpg" width="200" alt="Orange">
+ 
+</body>
+</html>
