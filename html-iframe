@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>iframe</title>
+	
+</head>
+<body>
+
+ <iframe src="pasta.html" frameborder="1"></iframe>
+ <br><br>
+ 
+ <iframe width="50%" height="300px" 
+ src="https://https://www.youtube.com/" title="Youtube video"></iframe>
+
+ <iframe width="862" height="494" src="https://www.youtube.com/embed/ShwbJGMdym4" 
+ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
