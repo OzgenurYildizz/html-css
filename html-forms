@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS</title>
+	
+</head>
+<body>
+ 	<h1>ABOUTE YOU</h1>
+ 	<p><i>Please fill in the blanks and answer the questions</i></p><br><br>
+
+ <form action="/action_page.php">
+ 
+ 	<label for="fname">Name:</label>
+    <input type="text" name="name">
+ 	</p>
+ 	<p>
+ 		Surname : <input type="text" name="surname">
+ 	</p>
+ 	<p>
+ 		E-mail: <input type="email" name="email">
+ 	</p>
+ 	<p>
+ 		Password: <input type="password" name="password">
+ 	</p>
+ 	<input type="submit" value="submit">
+    <input type="reset" name="reset">
+
+ 	<p>
+ 		Remember Me <input type="checkbox" name="remember">
+ 	</p>
+ 	<p>
+ 		How are you? <br>
+ 		<!--radio ve name kullanarak sadece bir seçim yapılması sağlanır-->
+ 		Fine <input type="radio" name="mood"> 
+ 		Bad <input type="radio" name="mood">
+ 	</p>
+ 	<p> 
+ 		Where are you from? <br>
+ 		<select name="city"> <!--<select multiple> diyerek birden fazla saçim yapılabilir-->
+ 			<option>Istanbul</option>
+ 			<option>Izmir</option>
+ 			<option>Bursa</option>
+ 			<option>Urfa</option>
+ 		</select>
+ 	</p>
+ 	<label for="favcolor">Select your favoriye color: </label>
+ 	<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+ 	<br><br>
+
+ 	<label for="birthdaytime">What is your birthday? </label>
+ 	<input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+
+ 	<label for="quentity">Quentity (between 1 and 5): </label>
+ 	<input type="number" id="quentity" name="quentity" min="1" max="5">
+ </form>
+
+</body>
+</html>
