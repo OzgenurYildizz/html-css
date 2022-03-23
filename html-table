@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tables</title>
+	
+</head>
+<body>
+	<!--border defaultta 0 sayıyı arttırarak keskinliği değiştiririz-->
+<table border="2" width=50%> 
+ <thead> <!--tablo başlıkları-->
+ 	<tr> <!--sütun -->
+ 		<th>Name</th> <!--açıklama-->
+ 		<th>Car Price</th> 
+ 		<th>Explanation</th> 
+
+ 	</tr> 
+ </thead>
+
+ <tbody> <!--tablo gövdesi-->
+ 	<tr> <!--satır-->
+ 		<td>X</td> 
+ 		<td>100.000$</td>
+ 		<td>Explanation for car X</td>
+ 	</tr>
+ 	<tr>
+ 		
+ 		<td>Y</td>
+ 		<td>300.000$</td>
+ 		<td>Explanation for car Y</td>
+ 	</tr>
+ 	<tr>
+ 		<td>Z</td>
+ 		<td>220.000$</td>
+ 		<td>Explanation for car Z</td>
+ 	</tr>
+ 	<tr>
+ 		<td colspan="3">................</td> 
+ 		<!--3 birleşen kolon sayısı-->
+ 		<td rowspan="3">................</td>
+ 		<!--3 birleşen sütun sayısı-->
+ 	</tr>
+ </tbody>
+ </table>
+
+</body>
+</html>
