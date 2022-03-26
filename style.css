@@ -1,0 +1,21 @@
+h2{
+	color: mediumblue;
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+}
+p{
+	color: gray;
+	font-size: 20px;
+	text-align: center;
+}
+
+.red{
+	color: red;
+}
+
+#title{
+	color: darkgreen;
+	font-size: 35px;
+	text-align: justify;
+}
