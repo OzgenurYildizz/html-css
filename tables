@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>table</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style type="text/css">
+       table,th,td{
+         border: 2px solid red;
+         padding: 5px 10px;
+         margin: 5px;
+         color: darkred;
+         text-align: justify;
+         border-collapse: none;
+         border-radius: 5px;
+         border-style: inset;
+
+       }
+       table{
+         background-color: lightpink;
+         border-style: outset;
+       }
+       th a:hover{
+         display: block;
+       border-style: outset;
+    }
+
+    </style>
+
+</head>
+<body>
+<table style="width: 500px;">
+   <tr>
+      <th><a href="#name">Name</a></th>
+      <th><a href="#name">Surname</a></th>
+      <th><a href="#name">id</a></th>
+   </tr>
+   <tr>
+      <td>Ömer</td>
+      <td>Fidan</td>
+      <td>0232453</td>
+   </tr>
+   <tr>
+      <td>Özgenur</td>
+      <td>Yıldız</td>
+      <td>2040434</td>
+   </tr>
+</table>
+
+
+</body>
+</html>
+
