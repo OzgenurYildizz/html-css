@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Login Panel</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+   
+    <style>
+       fieldset{
+   border-color: darkblue;
+   border-style: double;
+   width: 40%;
+   height: 220px;
+   background-color: lightblue;
+   border-radius: 10px;
+   text-align: center;
+}
+label{
+   font-style: bold;
+   font-size: 20px;
+   color: darkblue;
+}
+button{
+   background-color: darkblue;
+   color: white;
+   border-radius: 10px;
+   border-color: white;
+   padding: 5px 20px;
+    display: inline-block;  
+}
+input{
+   border-radius: 10px;
+   border-color: white;
+}
+    </style>
+
+</head>
+<body>
+ <fieldset>
+   <legend><img src="images/member.png"></img></legend>
+   <form>
+      <label for="e-mail">Mail</label><br>
+      <input type="email" name="e-mail" id="e-mail">
+      <br><br>
+      <label for="password">Password</label><br>
+      <input type="password" name="password" id="password">
+      <br><br>
+      <button type="submit" onclick="alert('Login successfully')">Login</button>
+
+   </form>
+
+ </fieldset>
+
+</body>
+</html>
+
