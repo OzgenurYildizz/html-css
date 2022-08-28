@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        padding: 10px;
+        color: blue;
+        border: 5px double darkblue;
+        margin: 10px;
+        text-align: center;
+        background-color: aliceblue;
+        text-shadow: 3px 3px lightblue;
+        font-family: "Lucida Handwriting", cursive;
+        font-size: 30px;
+
+    }
+
+    img {
+        width: 300px;
+        border-radius: 40px;
+        float: left;
+        padding: 10px;
+
+    }
+
+   .div1{
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid orange;
+        background-color: bisque;
+        overflow: auto;
+        border-radius: 40px;
+    }
+
+    ul.a {
+        list-style-type: circle;
+        float: left;
+    }
+
+    h2 {
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+
+    }
+
+    #Lorem {
+        background-color: coral;
+        border: 2px solid red;
+        overflow: auto;
+        border-radius: 40px;
+        font-style: italic;
+        color: rgb(245, 228, 197);
+        
+    }
+
+    #text1 {
+        border-radius: 40px;
+        border: 2px solid lightskyblue;
+        margin: 10px;
+        color: rgb(21, 167, 167);
+        padding: 10px;
+        overflow: hidden;
+        background-color: aliceblue;
+    }
+
+    fieldset{
+        border-radius: 40px;
+        border-color: blueviolet;
+        padding: 20px;
+        color: rgb(69, 10, 80);
+        font-size: large;
+        background-color: rgb(176, 128, 221);
+    }
+    legend{
+        text-align: center;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+
+    <h1>Lorem Ipsum</h1>
+    <div class="div1">
+        <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/3/21/1395401774125/Lorem-ipsum-011.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=32c2fa9cc82e47953dbe5230388b6bf3" alt="lorem photo">
+        <h2>What is Lorem Ipsum: &#10024;</h2>
+        <span class="ec ec-sparkles"></span>
+        <div id="Lorem">
+
+            <ul class="a">
+                <li>Lorem Ipsum is simply dummy text of the printing &#10084;</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s &#9997;</li>
+                <li>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. &#10055;</li>
+                <li>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters &#127799;</li>
+                <li>There are many variations of passages of Lorem Ipsum available &#127774;</li>
+            </ul>
+
+        </div>
+        <div id="text1">
+            <h2>The standard Lorem Ipsum passage</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ;
+            </p>
+        </div>
+    </div>
+
+    <fieldset>
+        <legend>&#128140;</legend>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,  &#128149;<br></p>
+        <audio controls>
+            <source src="https://www.youtube.com/watch?v=psHxhz3Bp9k" type="audio/mpeg">
+        </audio>
+
+    </fieldset>
+
+
+
+</body>
+
+</html>
