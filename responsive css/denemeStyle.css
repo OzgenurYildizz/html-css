@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+    /*mobil tasarım*/
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 46rem;
+}
+
+header .bg-image {
+    background-image: url(images/cover1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    border: 3px solid #333;
+    padding: 1.2rem 1.5rem;
+    margin: .5rem 0;
+    border-radius: 5rem;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+    color: #fff;
+    border-color: #eaeaea;
+}
+
+#section-a {
+    background-color: #eaeaea;
+    color: green;
+    padding: 3.2rem 0;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    border: 3px double yellow;
+}
+
+#section-a p {
+    text-align: center;
+    padding: 0 1.6rem;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul {
+    list-style: none;
+}
+
+#section-b li {
+    background-color: #fff;
+    color: green;
+    margin-bottom: 1.5rem;
+}
+
+.col-content {
+    padding: 1.5rem;
+}
+
+#section-c {
+    background-color: #eaeaea;
+    color: green;
+    padding: 5rem;
+}
+
+#section-d .box {
+    padding: 5rem;
+}
+
+#section-d .box:first-child {
+    background-color: darkolivegreen;
+}
+
+footer {
+    padding: 4rem;
+    background-color: forestgreen;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (min-width:800px) {
+
+    /*mobil tasarlandı büyüme ile ekran değişecek (tablet boyutu)*/
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 11px;
+    }
+    #section-b li{
+        width: 28%; /*100% üçe bölüp margini de hesaba kattık*/
+        margin:1%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+}
